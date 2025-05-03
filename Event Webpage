@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body
+        {
+            font-family: Calibri;
+            padding:0;
+            margin: 0;
+        }
+        header
+        {
+            background-color: limegreen;
+        }
+        header h1
+        {
+            margin: 0;
+            text-align: center;
+            color: white;
+        }
+        header h5
+        {
+            text-align: center;
+            color: white;
+        }
+        nav
+        {
+            background-color: black;
+            margin: 0;
+            text-decoration: none;
+            padding:10px;
+            text-align: center;
+        }
+        nav a
+        {
+            margin: 0;
+            text-decoration: none;
+
+            color: white;
+            text-align: center;
+        }
+       nav a:hover
+        {
+            color: red;
+        }
+        .container
+        {
+            border: 3px solid white;
+            border-radius: 15px;
+            box-shadow: 3px 3px 8px gray;
+            padding: 40px;
+            margin:30px;
+
+        }
+         h1
+        {
+            color: dodgerblue;
+
+        }
+
+        .event
+        {
+            border: 3px solid white;
+            border-radius: 15px;
+            box-shadow: 3px 3px 8px gray;
+            padding: 40px;
+            margin:30px;
+
+        }
+        .event table
+        {
+            border: 2px solid black;
+            width:100%;
+            height:30px;
+
+        }
+        #speakers
+        {
+            box-shadow: 3px 3px 8px gray;
+            border: 3px solid white;
+            border-radius: 15px;
+
+            padding: 40px;
+            margin:30px;
+        }
+        #contact
+        {
+            box-shadow: 3px 3px 8px gray;
+            border: 3px solid white;
+            border-radius: 15px;
+
+            padding: 40px;
+            margin:30px;
+        }
+    </style>
+</head>
+<body>
+        <header>
+            <h1>Welcome to Walk-In-Drive 2025</h1>
+            <h5>The Ultimate Technology and Programming Conference </h5>
+        </header>
+<nav>
+    <a href="#">About</a>
+    <a href="#">Schedule</a>
+    <a href="#">Speakers</a>
+    <a href="#">Contact</a>
+</nav>
+<div class="container">
+    <h1>About the event</h1>
+    <p>Lorem ipsum  facilis id molestiae molestias reprehenderit sint tempo  sit sunt tempora? Ab aliquid autem blanditiis delectus deleniti dignissimos dolor dolore dolorum earum eligendi enim eveniet hic impedit iste, itaque magnam modi necessitatibus nemo nostrum obcaecati odio perspiciatis porro possimus quasi quisquam quo, quod ratione reiciendis rem repellat reprehenderit saepe soluta suscipit unde veniam vero voluptatem.</p>
+</div>
+<div class="event">
+    <h1>Event Schedule</h1>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>Time</th>
+            <th>Session</th>
+            <th>Contest</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>9:00 AM</td>
+            <td>Opening Keynote</td>
+            <td>GeeksforGeeks Coding Plateform</td>
+        </tr>
+        <tr>
+            <td>10:30 AM</td>
+            <td>Understanding AI and Machine Learning</td>
+            <td>Mr. Arvind Kumar</td>
+        </tr>
+        <tr>
+            <td>1:00 PM</td>
+            <td>Lunch Break</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>2:00 PM</td>
+            <td>Exploring the Future of Cloud Computing</td>
+            <td>Ms. Neha Gupta</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+        <section id="speakers">
+            <h1>Meet the Speakers</h1>
+            <ul>
+                <li><strong>Dr. Radhika Sharma:</strong> AI Expert and Researcher</li>
+                <li><strong>Mr. Arvind Kumar:</strong> Senior Data Scientist at TechWave</li>
+                <li><strong>Ms. Neha Gupta:</strong> Cloud Computing Specialist at CloudTech</li>
+                <li><strong>Mr. Sandeep Reddy:</strong> Full Stack Developer and Open-Source Contributor</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h1>Contact Us</h1>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br><br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+</body>
+</html>
